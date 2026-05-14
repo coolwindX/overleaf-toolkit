@@ -11,15 +11,12 @@ The [Developer wiki](https://github.com/overleaf/overleaf/wiki) contains further
 Clone this repository locally:
 
 ``` sh
-git clone https://github.com/overleaf/toolkit.git ./overleaf-toolkit
+git clone https://github.com/coolwindX/overleaf-toolkit.git ./overleaf-toolkit
 ```
-
-Then follow the [Quick Start Guide](./doc/quick-start-guide.md).
-
 
 ## Documentation
 
-See [Documentation Index](./doc/README.md)
+See [Documentation Index](https://overleaf-pro.ayaka.space/)
 
 
 ## Contributing
