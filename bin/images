@@ -31,11 +31,11 @@ function __main__() {
     echo "---- Community Edition Images ----"
     docker images sharelatex/sharelatex
     echo "---- Server Pro Images ----"
-    docker images ghcr.io/ayaka-notes/overleaf-pro
+    docker images ghcr.1ms.run/ayaka-notes/overleaf-pro
     echo "---- TexLive Images ----"
-    docker images ghcr.io/ayaka-notes/texlive-full
+    docker images ghcr.1ms.run/ayaka-notes/texlive-full
     echo "---- Git Bridge Images ----"
-    docker images ghcr.io/ayaka-notes/overleaf-pro/git-bridge
+    docker images ghcr.1ms.run/ayaka-notes/overleaf-pro/git-bridge
 }
 
 __main__ "$@"

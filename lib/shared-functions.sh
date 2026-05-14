@@ -81,7 +81,7 @@ function set_server_pro_image_name() {
   if [[ -n ${OVERLEAF_IMAGE_NAME:-} ]]; then
     image_name="$OVERLEAF_IMAGE_NAME"
   elif [[ $SERVER_PRO == "true" ]]; then
-    image_name="ghcr.io/ayaka-notes/overleaf-pro"
+    image_name="ghcr.1ms.run/ayaka-notes/overleaf-pro"
   else
     image_name="sharelatex/sharelatex"
   fi
@@ -94,7 +94,7 @@ function set_git_bridge_image_name() {
   if [[ -n ${GIT_BRIDGE_IMAGE:-} ]]; then
     image_name="$GIT_BRIDGE_IMAGE"
   else
-    image_name="ghcr.io/ayaka-notes/overleaf-pro/git-bridge"
+    image_name="ghcr.1ms.run/ayaka-notes/overleaf-pro/git-bridge"
   fi
 
   # since we're reusing the GIT_BRIDGE_IMAGE environment variable, we check here if the version
